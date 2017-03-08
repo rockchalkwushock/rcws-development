@@ -14,7 +14,7 @@ const logPageView = () => {
 
 export default () => (
   <Router history={browserHistory} onUpdate={logPageView}>
-    <Route path='/' component={App}>
+    <Route path={process.env.PUBLIC_URL + '/'} component={App}>
       <IndexRoute component={Home} />
     </Route>
     <Route path='*' component={Page404} />
