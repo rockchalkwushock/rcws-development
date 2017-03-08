@@ -4,6 +4,7 @@
   "private": true,
   "description": "My web development website.",
   "main": "index.js",
+  "homepage": "https://rockchalkwushock.github.io/rcws-development/",
   "repository": "https://github.com/rockchalkwushock/rcws-development.git",
   "author": "Cody Brunner <rockchalkwushock@icloud.com>",
   "scripts": {
