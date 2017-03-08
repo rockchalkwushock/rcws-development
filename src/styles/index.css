@@ -17,6 +17,7 @@ body {
   margin: 0;
   font-size: 1.25em;
   background-image: linear-gradient(230deg, #515E91 0%, #121216 60%);
+  overflow: hidden;
 }
 .app-wrap,
 .page404 {

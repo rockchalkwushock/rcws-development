@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import Routes from './Routes';
-import './styles';
+import './styles/index.css';
 import 'font-awesome/css/font-awesome.css';
 
 render(
