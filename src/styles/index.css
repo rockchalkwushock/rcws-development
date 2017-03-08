@@ -1,0 +1,180 @@
+/*
+  ========================================
+  LAYOUT
+  ========================================
+*/
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: monospace;
+  color: #515E91;
+  margin: 0;
+  font-size: 1.25em;
+  background-image: linear-gradient(230deg, #515E91 0%, #121216 60%);
+}
+.app-wrap,
+.page404 {
+  display: flex;
+  max-width: 800px;
+  height: 100vh;
+  margin: auto;
+  padding: 10vh 0 10vh 0;
+}
+.app-wrap > * {
+  flex: 1 1 auto;
+}
+/*
+  ========================================
+  PAGE 404
+  ========================================
+*/
+.page404 {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.goback_button {
+  background-color: #515E91;
+  color: #121216;
+  border-radius: 2em;
+  padding: 0 0.5em 0 0.5em;
+}
+/*
+  ========================================
+  HOMEPAGE
+  ========================================
+*/
+.homepage {
+  display: flex;
+  flex-direction: column;
+}
+.homepage > * {
+  flex: 1 1 auto;
+}
+/*
+  ========================================
+  HEADER
+  ========================================
+*/
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.card > * {
+  flex: 1;
+}
+.card-social {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-social > * {
+  flex: 1 1 auto;
+}
+/*
+  ========================================
+  PROFILE PIC
+  ========================================
+*/
+.profile-picture {
+    position:relative;
+    overflow:hidden;
+    border-radius: 50%;
+    height: 12.5em;
+    width: 12.5em;
+}
+.profile-picture img {
+    position:absolute;
+    height: auto;
+    width: auto;
+    max-width:100%;
+}
+.centered img {
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+}
+/*
+  ========================================
+  CONTENT
+  ========================================
+*/
+.app-content {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+.app-conent > * {
+  flex: 1 1 auto;
+}
+.tech-pipe {
+  display: flex;
+}
+.tech-pipe > * {
+  flex: 1 1 auto;
+}
+.lists {
+  display: flex;
+}
+.lists > * {
+  flex: 1 1 auto;
+}
+.aboutme,
+.tech,
+.pipeline {
+  padding: 0.5em;
+}
+.tech-list,
+.pipe-tech-list,
+.pipe-project-list {
+  list-style-type: none;
+}
+.list-heading {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+.tech-list {
+  margin-top: 1em;
+  padding: 0;
+}
+.pipe-tech-list,
+.pipe-project-list {
+  margin: 0;
+  padding: 0;
+}
+.pipe-project-list {
+  padding-left: 2em;
+}
+.note {
+  font-style: italic;
+}
+h2, h4 {
+  margin: 0;
+}
+/*
+  ========================================
+  ANCHORS & ICONS
+  ========================================
+*/
+a {
+  text-align: center;
+}
+i {
+  color: #515E91;
+}
+/*
+  ========================================
+  MEDIA QUERIES
+  ========================================
+*/
