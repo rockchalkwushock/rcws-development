@@ -9,20 +9,20 @@ const Header = () => (
       <div className="card-header">
         <h2>Cody Brunner</h2>
         <p>Aspiring Web Developer</p>
-        <p>React | Redux | Node | MongoDB</p>
+        <p>React | Redux | Node | MongoDB | GraphQL</p>
       </div>
       <div className="card-social">
         <a className='icon' target='_blank' href='https://github.com/rockchalkwushock' title='github'>
           <i className="fa fa-github fa-2x"></i>
+        </a>
+        <a className='icon' target='_blank' href='https://twitter.com/RockChalkDev' title='twitter'>
+          <i className="fa fa-twitter fa-2x"></i>
         </a>
         <a className='icon' target='_blank' href='https://www.linkedin.com/in/cody-brunner-6aaa1880/' title='linkedin'>
           <i className="fa fa-linkedin-square fa-2x"></i>
         </a>
         <a className='icon' target='_blank' href='https://angel.co/rockchalkwushock' title='angel-list'>
           <i className="fa fa-angellist fa-2x"></i>
-        </a>
-        <a className='icon' target='_blank' href='http://stackoverflow.com/users/6520579/cody?tab=profile' title='stack-overflow'>
-          <i className="fa fa-stack-overflow fa-2x"></i>
         </a>
         <a className='icon' href='mailto:rockchalkwushock@icloud.com' title='email'>
           <i className="fa fa-envelope fa-2x"></i>

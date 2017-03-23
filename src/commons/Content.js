@@ -23,6 +23,8 @@ const Content = () => (
           <li>MongoDB</li>
           <li>React.js</li>
           <li>Redux.js</li>
+          <li>GraphQL</li>
+          <li>Next.js</li>
         </ul>
       </div>
       <div className="pipeline">
@@ -30,8 +32,6 @@ const Content = () => (
         <div className="lists">
           <ul className='pipe-tech-list'>
             <h4 className='list-heading'>Technology</h4>
-            <li>GraphQL</li>
-            <li>Next.js</li>
             <li>Elixir</li>
             <li>React-Native</li>
             <li>Python</li>
@@ -41,7 +41,7 @@ const Content = () => (
             <h4 className='list-heading'>Projects</h4>
             <li>Deploy first PWA for production</li>
             <li>Electon App: Simple Todo</li>
-            <li>Open Source: Cloudinary Widget React Component</li>
+            <li>Open Source: TBD</li>
             <li>Add blog feature to this website.</li>
           </ul>
         </div>
